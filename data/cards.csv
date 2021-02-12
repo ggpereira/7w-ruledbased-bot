@@ -1,0 +1,85 @@
+card_id,card_name,type,cost,provides,future_free_to,free_with,age,amount / players
+1,Lumber_Yard,raw_material,-,1x_Wood,-,-,1,"3,4"
+2,Stone_Pit,raw_material,-,1x_Stone,-,-,1,"3,5"
+3,Clay_Pool,raw_material,-,1x_Clay,-,-,1,"3,5"
+4,Ore_Vein,raw_material,-,1x_Ore,-,-,1,"3,4"
+5,Tree_Farm,raw_material,1x_Coin,1x_Wood_OR_1x_Clay,-,-,1,6
+6,Excavation,raw_material,1x_Coin,1x_Stone_OR_1x_Clay,-,-,1,4
+7,Clay_Pit,raw_material,1x_Coin,1x_Clay_OR_1x_Ore,-,-,1,3
+8,Timber_Yard,raw_material,1x_Coin,1x_Stone_OR_1x_Wood,-,-,1,3
+9,Forest_Cave,raw_material,1x_Coin,1x_Wood_OR_1x_Ore,-,-,1,5
+10,Mine,raw_material,1x_Coin,1x_Ore_OR_1x_Stone,-,-,1,6
+11,Sawmill,raw_material,1x_Coin,2x_Wood,-,-,2,"3,4"
+12,Quarry,raw_material,1x_Coin,2x_Stone,-,-,2,"3,4"
+13,Brickyard,raw_material,1x_Coin,2x_Clay,-,-,2,"3,4"
+14,Foundry,raw_material,1x_Coin,2x_Ore,-,-,2,"3,4"
+15,Loom,manufactured_good,-,1x_Cloth,-,-,1,"3,6"
+16,Glassworks,manufactured_good,-,1x_Glass,-,-,1,"3,6"
+17,Press,manufactured_good,-,1x_Papyrus,-,-,1,"3,6"
+15,Loom,manufactured_good,-,1x_Cloth,-,-,2,"3,5"
+16,Glassworks,manufactured_good,-,1x_Glass,-,-,2,"3,5"
+17,Press,manufactured_good,-,1x_Papyrus,-,-,2,"3,5"
+18,Altar,civilian_structure,-,2x_Victory_points,Temple,-,1,"3,5"
+19,Theater,civilian_structure,-,2x_Victory_points,Statue,-,1,"3,6"
+20,Pawnshop,civilian_structure,-,3x_Victory_points,-,-,1,"4,7"
+21,Baths,civilian_structure,1x_Stone,3x_Victory_points,Aqueduct,-,1,"3,7"
+22,Temple,civilian_structure,1x_Wood_AND_1x_Clay_AND_1x_Glass,3x_Victory_points,Pantheon,Altar,2,"3,6"
+23,Courthouse,civilian_structure,2x_Clay_AND_1x_Cloth,4x_Victory_points,- ,Scriptorium,2,"3,5"
+24,Statue,civilian_structure,2x_Ore_AND_1x_Wood,4x_Victory_points,Gardens,Theater,2,"3,7"
+25,Aqueduct,civilian_structure,3x_Stone,5x_Victory_points,-,Baths,2,"3,7"
+26,Gardens,civilian_structure,2x_Clay_AND_1x_Wood,5x_Victory_points,-,Statue,3,"3,4"
+27,Town_Hall,civilian_structure,2x_Stone_AND_1x_Ore_AND_1x_Glass,6x_Victory_points,-,-,3,"3,5,6"
+28,Senate,civilian_structure,2x_Wood_AND_1x_Stone_AND_1x_Ore,6x_Victory_points,- ,Library,3,"3,5"
+29,Pantheon,civilian_structure,2x_Clay_AND_1x_Ore_AND_1x_Glass_AND_1x_Papyrus_AND_1x_Cloth,7x_Victory_points,-,Temple,3,"3,6"
+30,Palace,civilian_structure,1x_Stone_AND_1x_Ore_AND_1x_Wood_AND_1x_Clay_AND_1x_Glass_AND_1x_Papyrus_AND_1x_Cloth,8x_Victory_points,-,-,3,"3,7"
+31,Tavern,commercial_structure,-,5x_Coin,-,-,1,"4,5,7"
+32,East_Trading_Post,commercial_structure,-,You_only_pay_1_coin_when_you_buy_a_Raw_Material_from_your_clockwise_neighbor_(right),Forum,-,1,"3,7"
+33,West_Trading_Post,commercial_structure,-,You_only_pay_1_coin_when_you_buy_a_Raw_Material_from_your_counter-clockwise_neighbor_(left),Forum,-,1,"3,7"
+34,Marketplace,commercial_structure,-,You_only_pay_1_coin_when_you_buy_a_Manufactured_Good_from_your_neighbors,Caravansery,-,1,"3,6"
+35,Forum,commercial_structure,2x_Clay,1x_Glass_OR_1x_Cloth_OR_1x_Papyrus,Haven,East_Trading_Post_OR_West_Trading_Post,2,"3,6,7"
+36,Caravansery,commercial_structure,2x_Wood,1x_Wood_OR_1x_Stone_OR_1x_Ore_OR_1x_Clay,Lighthouse,Marketplace,2,"3,5,6"
+37,Vineyard,commercial_structure,-,1x_Coin_per_Raw_Material_in_the_neighboring_cities_AND_in_your_own_city,-,-,2,"3,6"
+38,Bazar,commercial_structure,-,2x_Coin_per_manufactured_Good_in_the_neighboring_cities_AND_in_your_own_city,-,-,2,"4,7"
+39,Haven,commercial_structure,1x_Wood_AND_1x_Ore_AND_1x_Cloth,1x_Victory_points_AND_+1_Coin_per_Raw_Material_in_your_own_city,-,Forum,3,"3,4"
+40,Lighthouse,commercial_structure,1x_Stone_AND_1x_Glass,1x_Victory_points_AND_+1_Coin_per_Commercial_Structure_in_your_own_city,-,Caravansery,3,"3,6"
+41,Chamber_of_Commerce,commercial_structure,2x_Stone_AND_1x_Papyrus,2x_Victory_points_AND_+2_Coin_per_Manufactured_Good_in_your_own_city,-,-,3,"4,6"
+42,Arena,commercial_structure,2x_Stone_AND_1x_Ore,1x_Victory_points_AND_+3_Coin_per_Wonder_stage_constructed_i_nyour_own_city,-,Dispensary,3,"3,5,7"
+43,Stockade,military_structure,1x_Wood,1x_Shields,-,-,1,"3,7"
+44,Barracks,military_structure,1x_Ore,1x_Shields,-,-,1,"3,5"
+45,Guard_Tower,military_structure,1x_Clay,1x_Shields,-,-,1,"3,4"
+46,Walls,military_structure,3x_Stone,2x_Shields,Fortifications,-,2,"3,7"
+47,Training_Ground,military_structure,1x_Wood_AND_2x_Ore,2x_Shields,Circus,-,2,"4,6,7"
+48,Stables,military_structure,1x_Ore_AND_1x_Clay_AND_1x_Wood,2x_Shields,-,Apothecary,2,"3,5"
+49,Archery_Range,military_structure,2x_Wood_AND_1x_Ore,2x_Shields,-,Workshop,2,"3,6"
+50,Fortifications,military_structure,1x_Stone_AND_3x_Ore,3x_Shields,-,Walls,3,"3,7"
+51,Circus,military_structure,3x_Stone_AND_1x_Ore,3x_Shields,-,Training_Ground,3,"4,5,6"
+52,Arsenal,military_structure,1x_Ore_AND_2x_Wood_AND_1x_Cloth,3x_Shields,-,-,3,"3,7"
+53,Siege_Workshop,military_structure,1x_Wood_AND_3x_Clay,3x_Shields,-,Laboratory,3,"3,5"
+54,Apothecary,scientific_structure,1x_Cloth,1x_Compass,Stables OR Dispensary,-,1,"3,5"
+55,Workshop,scientific_structure,1x_Glass,1x_Gear,Archery_Range OR Laboratory,-,1,"3,7"
+56,Scriptorium,scientific_structure,1x_Papyrus,1x_Tablet,Courthouse OR Library,-,1,"3,4"
+57,Dispensary,scientific_structure,2x_Ore_AND_1x_Glass,1x_Compass,Arena OR Lodge,Apothecary,2,"3,4"
+58,Laboratory,scientific_structure,2x_Clay_AND_1x_Papyrus,1x_Gear,Siege_Workshop OR Observatory,Workshop,2,"3,5"
+59,Library,scientific_structure,2x_Stone_AND_1x_Cloth,1x_Tablet,Senate OR University,Scriptorium,2,"3,6"
+60,School,scientific_structure,1x_Wood_AND_1x_Papyrus,1x_Tablet,Academy OR Study,-,2,"3,7"
+61,Lodge,scientific_structure,2x_Clay_AND_1x_Cloth_AND_1x_Papyrus,1x_Compass,- ,Dispensary,3,"3,6"
+62,Observatory,scientific_structure,2x_Ore_AND_1x_Glass_AND_1x_Cloth,1x_Gear,-,Laboratory,3,"3,7"
+63,University,scientific_structure,2x_Wood_AND_1x_Papyrus_AND_1x_Glass,1x_Tablet,- ,Library,3,"3,4"
+64,Academy,scientific_structure,3x_Stone_AND_1x_Glass_,1x_Compass,-,School,3,"3,7"
+65,Study,scientific_structure,1x_Wood_AND_1x_Papyrus_AND_1x_Cloth,1x_Gear,- ,School,3,"3,5"
+66,Workers_Guild,guild,1x_Wood_AND_1x_Stone_AND_1x_Clay_AND_2x_Ore,1 Ponto de Vitória por cartas marrons nos vizinhos da esquerda e direita,-,-,3,-
+67,Craftmens_Guild,guild,2x_Stone_AND_2x_Ore,2 Pontos de Vitória por cartas cinzas nos vizinhos da esquerda e direita,-,-,3,-
+68,Traders_Guild,guild,1x_Cloth_AND_1x_Papyrus_AND_1x_Glass,1 Ponto de Vitória por cartas amarelas nos vizinhos da esquerda e direita,-,-,3,-
+69,Philosophers_Guild,guild,3x_Clay_AND_1x_Papyrus_AND_1x_Cloth,1 Ponto de Vitória por cartas verdes nos vizinhos da esquerda e direita,-,-,3,-
+70,Spies_Guild,guild,3x_Clay_AND_1x_Glass,1 Ponto de Vitória por cartas vermelhas nos vizinhos da esquerda e direita,-,-,3,-
+71,Magistrates_Guild,guild,3x_Wood_AND_1x_Stone_AND_1x_Cloth,1 Ponto de Vitória por cartas azuis nos vizinhos da esquerda e direita,-,-,3,-
+72,Shipowners_Guild,guild,3x_Wood_AND_1x_Papyrus_AND_1x_Glass,"1 Ponto de Vitória por cartas marrons, cinzas e roxas nos vizinhos da esquerda e direita",-,-,3,-
+73,Strategists_Guild,guild,2x_Ore_AND_1x_Stone_AND_1x_Cloth,1 Ponto de Vitória por batalha perdida (token -1 ponto) nos vizinhos da esquerda e direita,-,-,3,-
+74,Scientists_Guild,guild,2x_Wood_AND_2x_Ore_AND_1x_Papyrus,Compass ou Gear ou Tablet (o mais vantagioso),-,-,3,-
+75,Builders_Guild,guild,2x_Stone_AND_2x_Clay_AND_1x_Glass,1 Ponto de Vitória por estágio construido da maravilha nos vizinhos da esquerda e direita e no jogador,-,-,3,-
+,,,,,,,,
+Description,,,,,,,,
+card_id,unique id,,,,,,,
+card_name,name,,,,,,,
+type,type,,,,,,,
+cost,,,,,,,,
